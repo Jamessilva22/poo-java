@@ -1,10 +1,10 @@
 public class PixMetodo implements MetodoPagamentoInterface{
-    double valorPagamento = 32.50;
+    double valorPagamento;
     String metodoPagamento = "Pix";
 
-    public PixMetodo(double valorPagamento, String metodoPagamento){
+    public PixMetodo(double valorPagamento){
         this.valorPagamento = valorPagamento;
-        this.metodoPagamento = metodoPagamento;
+
     }
 
     @Override
