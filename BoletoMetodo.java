@@ -1,10 +1,9 @@
 public class BoletoMetodo implements MetodoPagamentoInterface {
-    double valorPagamento = 10.22;
+    double valorPagamento;
     String metodoPagamento = "Boleto";
 
-    public BoletoMetodo(double valorPagamento, String metodoPagamento){
+    public BoletoMetodo(double valorPagamento){
         this.valorPagamento = valorPagamento;
-        this.metodoPagamento = metodoPagamento;
     }
 
     @Override
