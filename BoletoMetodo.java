@@ -6,6 +6,7 @@ public class BoletoMetodo implements MetodoPagamentoInterface {
     public double valorCobranca(){
         return valorPagamento;
     }
+    @Override
     public String metodoCobranca(){
         return metodoPagamento;
     }

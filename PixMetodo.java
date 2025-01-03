@@ -6,6 +6,7 @@ public class PixMetodo implements MetodoPagamentoInterface{
     public double valorCobranca(){
         return valorPagamento;
     }
+    @Override
     public String metodoCobranca(){
         return metodoPagamento;
     }
